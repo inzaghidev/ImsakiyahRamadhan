@@ -1,4 +1,4 @@
-# ImsakiyahRamadhan
+# Imsakiyah Ramadhan
 Merupakan kumpulan Jadwal Imsakiyah, Jadwal Puasa selama Bulan Ramadhan dari Tahun ke Tahun (Khusus untuk Wilayah Indonesia saja).
 
 ## Daftar Imsakiyah Ramadhan
