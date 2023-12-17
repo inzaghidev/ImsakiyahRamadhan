@@ -1,5 +1,5 @@
 # ImsakiyahRamadhan
-Merupakan kumpulan Jadwal Imsakiyah, Jadwal Puasa selama Bulan Ramadhan dari Tahun ke Tahun.
+Merupakan kumpulan Jadwal Imsakiyah, Jadwal Puasa selama Bulan Ramadhan dari Tahun ke Tahun (Khusus untuk Wilayah Indonesia saja).
 
 ## Daftar Imsakiyah Ramadhan
 - Ramadhan 1444 H : Maret-April 2023
