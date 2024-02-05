@@ -1,5 +1,5 @@
 # Imsakiyah Ramadhan
-| GAMBAR |\
+![Jadwal Imsakiya Ramadhan](./images/jadwal-imsakiyah-ramadhan.png)
 Merupakan kumpulan Jadwal Imsakiyah, Jadwal Puasa selama Bulan Ramadhan dari Tahun ke Tahun (Khusus untuk Wilayah Indonesia saja).
 
 ## Daftar Imsakiyah Ramadhan
