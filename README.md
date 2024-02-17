@@ -9,3 +9,7 @@ Merupakan kumpulan Jadwal Imsakiyah, Jadwal Puasa selama Bulan Ramadhan dari Tah
 
 ## Deskripsi
 Sumber : https://bimasislam.kemenag.go.id/jadwalimsakiyah
+
+# Muhammadiyah
+- Ramadhan 1444 H : https://web.suaramuhammadiyah.id/2023/02/15/imsakiyah-ramadhan-1444-h-2023
+- Ramadhan 1445 H : https://www.suaramuhammadiyah.id/read/download-jadwal-imsakiyah-ramadhan-1445-h-2024-m-se-indonesia
