@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jadwal Imsakiyah Ramadhan 1445 H</title>
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 1250px;
+    }
+    td {
+      border: 1px solid #000000;
+      text-align: left;
+      padding: 8px;
+      width: 30%;
+    }
+
+    th {
+      border: 1px solid #000000;
+      text-align: left;
+      padding: 8px;
+    }
+
+    table,
+    td,
+    th {
+      text-align: center;
+    }
+
+    #no {
+      width: 50px;
+    }
+
+    #hijri,
+    #greg {
+      width: 200px;
+    }
+
+    #imsak,
+    #subuh,
+    #terbit,
+    #dhuha,
+    #zuhur,
+    #ashar,
+    #magrib,
+    #isya {
+      width: 100px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Jadwal Imsakiyah Ramadhan 1445 H</h1>
+  <h2>Untuk Wilayah Sumatera Barat (Padang) dan Sekitarnya</h2>
+  <table id="imsSumbar">
+  </table>
+  <br />
+  <h2>Untuk Wilayah Sumatera Selatan (Palembang) dan Sekitarnya</h2>
+  <table id="imsSumsel">
+  </table>
+  <br />
+  <h2>Untuk Wilayah Banten (Serang) dan Sekitarnya</h2>
+  <table id="imsBanten">
+  </table>
+  <br />
+  <h2>Untuk Wilayah DKI Jakarta dan Sekitarnya</h2>
+  <table id="imsJakarta">
+  </table>
+  <br />
+  <h2>Untuk Wilayah Jawa Barat (Bandung) dan Sekitarnya</h2>
+  <table id="imsJabar">
+  </table>
+
+  <script>
+    function imsSumbar() {
+      const hijri = ["1 Ramadan 1445 H", "2 Ramadan 1445 H", "3 Ramadan 1445 H", "4 Ramadan 1445 H", "5 Ramadan 1445 H", "6 Ramadan 1445 H", "7 Ramadan 1445 H", "8 Ramadan 1445 H", "9 Ramadan 1445 H", "10 Ramadan 1445 H",
+        "11 Ramadan 1445 H", "12 Ramadan 1445 H", "13 Ramadan 1445 H", "14 Ramadan 1445 H", "15 Ramadan 1445 H", "16 Ramadan 1445 H", "17 Ramadan 1445 H", "18 Ramadan 1445 H", "19 Ramadan 1445 H", "20 Ramadan 1445 H",
+        "21 Ramadan 1445 H", "22 Ramadan 1445 H", "23 Ramadan 1445 H", "24 Ramadan 1445 H", "25 Ramadan 1445 H", "26 Ramadan 1445 H", "27 Ramadan 1445 H", "28 Ramadan 1445 H", "29 Ramadan 1445 H"];
+      const greg = ["12 Maret 2024", "13 Maret 2024", "14 Maret 2024", "15 Maret 2024", "16 Maret 2024", "17 Maret 2024", "18 Maret 2024", "19 Maret 2024", "20 Maret 2024", "21 Maret 2024",
+        "22 Maret 2024", "23 Maret 2024", "24 Maret 2024", "25 Maret 2024", "26 Maret 2024", "27 Maret 2024", "28 Maret 2024", "29 Maret 2024", "30 Maret 2024", "31 Maret 2024",
+        "1 April 2024", "2 April 2024", "3 April 2024", "4 April 2024", "5 April 2024", "6 April 2024", "7 April 2024", "8 April 2024", "9 April 2024"];
+      const imsak = [];
+      const subuh = [];
+      const terbit = [];
+      const dhuha = [];
+      const dzuhur = [];
+      const ashar = [];
+      const magrib = [];
+      const isya = [];
+
+      document.write('<tr>');
+      document.write('<th id="no">No.</th>');
+      document.write('<th id="hijri">Tanggal Hijriah</th>');
+      document.write('<th id="greg">Tanggal Masehi</th>');
+      document.write('<th id="imsak">Imsak</th>');
+      document.write('<th id="subuh">Subuh</th>');
+      document.write('<th id="terbit">Terbit</th>');
+      document.write('<th id="dhuha">Dhuha</th>');
+      document.write('<th id="zuhur">Zuhur</th>');
+      document.write('<th id="ashar">Ashar</th>');
+      document.write('<th id="magrib">Magrib</th>');
+      document.write('<th id="isya">Isya</th>');
+      document.write('</tr>');
+
+      for (let i = 0; i < hijri.length; i++) {
+        document.write('<tr>');
+        document.write(`<td>${i + 1}</td>`);
+        document.write(`<td>${hijri[i]}</td>`);
+        document.write(`<td>${greg[i]}</td>`);
+        document.write(`<td>${imsak[i]}</td>`);
+        document.write(`<td>${subuh[i]}</td>`);
+        document.write(`<td>${terbit[i]}</td>`);
+        document.write(`<td>${dhuha[i]}</td>`);
+        document.write(`<td>${dzuhur[i]}</td>`);
+        document.write(`<td>${ashar[i]}</td>`);
+        document.write(`<td>${magrib[i]}</td>`);
+        document.write(`<td>${isya[i]}</td>`);
+        document.write('</tr>');
+      }
+    }
+
+    function imsSumsel() {
+      const hijri = ["1 Ramadan 1445 H", "2 Ramadan 1445 H", "3 Ramadan 1445 H", "4 Ramadan 1445 H", "5 Ramadan 1445 H", "6 Ramadan 1445 H", "7 Ramadan 1445 H", "8 Ramadan 1445 H", "9 Ramadan 1445 H", "10 Ramadan 1445 H",
+        "11 Ramadan 1445 H", "12 Ramadan 1445 H", "13 Ramadan 1445 H", "14 Ramadan 1445 H", "15 Ramadan 1445 H", "16 Ramadan 1445 H", "17 Ramadan 1445 H", "18 Ramadan 1445 H", "19 Ramadan 1445 H", "20 Ramadan 1445 H",
+        "21 Ramadan 1445 H", "22 Ramadan 1445 H", "23 Ramadan 1445 H", "24 Ramadan 1445 H", "25 Ramadan 1445 H", "26 Ramadan 1445 H", "27 Ramadan 1445 H", "28 Ramadan 1445 H", "29 Ramadan 1445 H"];
+      const greg = ["12 Maret 2024", "13 Maret 2024", "14 Maret 2024", "15 Maret 2024", "16 Maret 2024", "17 Maret 2024", "18 Maret 2024", "19 Maret 2024", "20 Maret 2024", "21 Maret 2024",
+        "22 Maret 2024", "23 Maret 2024", "24 Maret 2024", "25 Maret 2024", "26 Maret 2024", "27 Maret 2024", "28 Maret 2024", "29 Maret 2024", "30 Maret 2024", "31 Maret 2024",
+        "1 April 2024", "2 April 2024", "3 April 2024", "4 April 2024", "5 April 2024", "6 April 2024", "7 April 2024", "8 April 2024", "9 April 2024"];
+      const imsak = [];
+      const subuh = [];
+      const terbit = [];
+      const dhuha = [];
+      const dzuhur = [];
+      const ashar = [];
+      const magrib = [];
+      const isya = [];
+
+      document.write('<tr>');
+      document.write('<th id="no">No.</th>');
+      document.write('<th id="hijri">Tanggal Hijriah</th>');
+      document.write('<th id="greg">Tanggal Masehi</th>');
+      document.write('<th id="imsak">Imsak</th>');
+      document.write('<th id="subuh">Subuh</th>');
+      document.write('<th id="terbit">Terbit</th>');
+      document.write('<th id="dhuha">Dhuha</th>');
+      document.write('<th id="zuhur">Zuhur</th>');
+      document.write('<th id="ashar">Ashar</th>');
+      document.write('<th id="magrib">Magrib</th>');
+      document.write('<th id="isya">Isya</th>');
+      document.write('</tr>');
+
+      for (let i = 0; i < hijri.length; i++) {
+        document.write('<tr>');
+        document.write(`<td>${i + 1}</td>`);
+        document.write(`<td>${hijri[i]}</td>`);
+        document.write(`<td>${greg[i]}</td>`);
+        document.write(`<td>${imsak[i]}</td>`);
+        document.write(`<td>${subuh[i]}</td>`);
+        document.write(`<td>${terbit[i]}</td>`);
+        document.write(`<td>${dhuha[i]}</td>`);
+        document.write(`<td>${dzuhur[i]}</td>`);
+        document.write(`<td>${ashar[i]}</td>`);
+        document.write(`<td>${magrib[i]}</td>`);
+        document.write(`<td>${isya[i]}</td>`);
+        document.write('</tr>');
+      }
+    }
+
+    function imsBanten() {
+      const hijri = ["1 Ramadan 1445 H", "2 Ramadan 1445 H", "3 Ramadan 1445 H", "4 Ramadan 1445 H", "5 Ramadan 1445 H", "6 Ramadan 1445 H", "7 Ramadan 1445 H", "8 Ramadan 1445 H", "9 Ramadan 1445 H", "10 Ramadan 1445 H",
+        "11 Ramadan 1445 H", "12 Ramadan 1445 H", "13 Ramadan 1445 H", "14 Ramadan 1445 H", "15 Ramadan 1445 H", "16 Ramadan 1445 H", "17 Ramadan 1445 H", "18 Ramadan 1445 H", "19 Ramadan 1445 H", "20 Ramadan 1445 H",
+        "21 Ramadan 1445 H", "22 Ramadan 1445 H", "23 Ramadan 1445 H", "24 Ramadan 1445 H", "25 Ramadan 1445 H", "26 Ramadan 1445 H", "27 Ramadan 1445 H", "28 Ramadan 1445 H", "29 Ramadan 1445 H"];
+      const greg = ["12 Maret 2024", "13 Maret 2024", "14 Maret 2024", "15 Maret 2024", "16 Maret 2024", "17 Maret 2024", "18 Maret 2024", "19 Maret 2024", "20 Maret 2024", "21 Maret 2024",
+        "22 Maret 2024", "23 Maret 2024", "24 Maret 2024", "25 Maret 2024", "26 Maret 2024", "27 Maret 2024", "28 Maret 2024", "29 Maret 2024", "30 Maret 2024", "31 Maret 2024",
+        "1 April 2024", "2 April 2024", "3 April 2024", "4 April 2024", "5 April 2024", "6 April 2024", "7 April 2024", "8 April 2024", "9 April 2024"];
+      const imsak = [];
+      const subuh = [];
+      const terbit = [];
+      const dhuha = [];
+      const dzuhur = [];
+      const ashar = [];
+      const magrib = [];
+      const isya = [];
+
+      document.write('<tr>');
+      document.write('<th id="no">No.</th>');
+      document.write('<th id="hijri">Tanggal Hijriah</th>');
+      document.write('<th id="greg">Tanggal Masehi</th>');
+      document.write('<th id="imsak">Imsak</th>');
+      document.write('<th id="subuh">Subuh</th>');
+      document.write('<th id="terbit">Terbit</th>');
+      document.write('<th id="dhuha">Dhuha</th>');
+      document.write('<th id="zuhur">Zuhur</th>');
+      document.write('<th id="ashar">Ashar</th>');
+      document.write('<th id="magrib">Magrib</th>');
+      document.write('<th id="isya">Isya</th>');
+      document.write('</tr>');
+
+      for (let i = 0; i < hijri.length; i++) {
+        document.write('<tr>');
+        document.write(`<td>${i + 1}</td>`);
+        document.write(`<td>${hijri[i]}</td>`);
+        document.write(`<td>${greg[i]}</td>`);
+        document.write(`<td>${imsak[i]}</td>`);
+        document.write(`<td>${subuh[i]}</td>`);
+        document.write(`<td>${terbit[i]}</td>`);
+        document.write(`<td>${dhuha[i]}</td>`);
+        document.write(`<td>${dzuhur[i]}</td>`);
+        document.write(`<td>${ashar[i]}</td>`);
+        document.write(`<td>${magrib[i]}</td>`);
+        document.write(`<td>${isya[i]}</td>`);
+        document.write('</tr>');
+      }
+    }
+
+    function imsJakarta() {
+      const hijri = ["1 Ramadan 1445 H", "2 Ramadan 1445 H", "3 Ramadan 1445 H", "4 Ramadan 1445 H", "5 Ramadan 1445 H", "6 Ramadan 1445 H", "7 Ramadan 1445 H", "8 Ramadan 1445 H", "9 Ramadan 1445 H", "10 Ramadan 1445 H",
+        "11 Ramadan 1445 H", "12 Ramadan 1445 H", "13 Ramadan 1445 H", "14 Ramadan 1445 H", "15 Ramadan 1445 H", "16 Ramadan 1445 H", "17 Ramadan 1445 H", "18 Ramadan 1445 H", "19 Ramadan 1445 H", "20 Ramadan 1445 H",
+        "21 Ramadan 1445 H", "22 Ramadan 1445 H", "23 Ramadan 1445 H", "24 Ramadan 1445 H", "25 Ramadan 1445 H", "26 Ramadan 1445 H", "27 Ramadan 1445 H", "28 Ramadan 1445 H", "29 Ramadan 1445 H"];
+      const greg = ["12 Maret 2024", "13 Maret 2024", "14 Maret 2024", "15 Maret 2024", "16 Maret 2024", "17 Maret 2024", "18 Maret 2024", "19 Maret 2024", "20 Maret 2024", "21 Maret 2024",
+        "22 Maret 2024", "23 Maret 2024", "24 Maret 2024", "25 Maret 2024", "26 Maret 2024", "27 Maret 2024", "28 Maret 2024", "29 Maret 2024", "30 Maret 2024", "31 Maret 2024",
+        "1 April 2024", "2 April 2024", "3 April 2024", "4 April 2024", "5 April 2024", "6 April 2024", "7 April 2024", "8 April 2024", "9 April 2024"];
+      const imsak = [];
+      const subuh = [];
+      const terbit = [];
+      const dhuha = [];
+      const dzuhur = [];
+      const ashar = [];
+      const magrib = [];
+      const isya = [];
+
+      document.write('<tr>');
+      document.write('<th id="no">No.</th>');
+      document.write('<th id="hijri">Tanggal Hijriah</th>');
+      document.write('<th id="greg">Tanggal Masehi</th>');
+      document.write('<th id="imsak">Imsak</th>');
+      document.write('<th id="subuh">Subuh</th>');
+      document.write('<th id="terbit">Terbit</th>');
+      document.write('<th id="dhuha">Dhuha</th>');
+      document.write('<th id="zuhur">Zuhur</th>');
+      document.write('<th id="ashar">Ashar</th>');
+      document.write('<th id="magrib">Magrib</th>');
+      document.write('<th id="isya">Isya</th>');
+      document.write('</tr>');
+
+      for (let i = 0; i < hijri.length; i++) {
+        document.write('<tr>');
+        document.write(`<td>${i + 1}</td>`);
+        document.write(`<td>${hijri[i]}</td>`);
+        document.write(`<td>${greg[i]}</td>`);
+        document.write(`<td>${imsak[i]}</td>`);
+        document.write(`<td>${subuh[i]}</td>`);
+        document.write(`<td>${terbit[i]}</td>`);
+        document.write(`<td>${dhuha[i]}</td>`);
+        document.write(`<td>${dzuhur[i]}</td>`);
+        document.write(`<td>${ashar[i]}</td>`);
+        document.write(`<td>${magrib[i]}</td>`);
+        document.write(`<td>${isya[i]}</td>`);
+        document.write('</tr>');
+      }
+    }
+
+    function imsJabar() {
+      const hijri = ["1 Ramadan 1445 H", "2 Ramadan 1445 H", "3 Ramadan 1445 H", "4 Ramadan 1445 H", "5 Ramadan 1445 H", "6 Ramadan 1445 H", "7 Ramadan 1445 H", "8 Ramadan 1445 H", "9 Ramadan 1445 H", "10 Ramadan 1445 H",
+        "11 Ramadan 1445 H", "12 Ramadan 1445 H", "13 Ramadan 1445 H", "14 Ramadan 1445 H", "15 Ramadan 1445 H", "16 Ramadan 1445 H", "17 Ramadan 1445 H", "18 Ramadan 1445 H", "19 Ramadan 1445 H", "20 Ramadan 1445 H",
+        "21 Ramadan 1445 H", "22 Ramadan 1445 H", "23 Ramadan 1445 H", "24 Ramadan 1445 H", "25 Ramadan 1445 H", "26 Ramadan 1445 H", "27 Ramadan 1445 H", "28 Ramadan 1445 H", "29 Ramadan 1445 H"];
+      const greg = ["12 Maret 2024", "13 Maret 2024", "14 Maret 2024", "15 Maret 2024", "16 Maret 2024", "17 Maret 2024", "18 Maret 2024", "19 Maret 2024", "20 Maret 2024", "21 Maret 2024",
+        "22 Maret 2024", "23 Maret 2024", "24 Maret 2024", "25 Maret 2024", "26 Maret 2024", "27 Maret 2024", "28 Maret 2024", "29 Maret 2024", "30 Maret 2024", "31 Maret 2024",
+        "1 April 2024", "2 April 2024", "3 April 2024", "4 April 2024", "5 April 2024", "6 April 2024", "7 April 2024", "8 April 2024", "9 April 2024"];
+      const imsak = [];
+      const subuh = [];
+      const terbit = [];
+      const dhuha = [];
+      const dzuhur = [];
+      const ashar = [];
+      const magrib = [];
+      const isya = [];
+
+      document.write('<tr>');
+      document.write('<th id="no">No.</th>');
+      document.write('<th id="hijri">Tanggal Hijriah</th>');
+      document.write('<th id="greg">Tanggal Masehi</th>');
+      document.write('<th id="imsak">Imsak</th>');
+      document.write('<th id="subuh">Subuh</th>');
+      document.write('<th id="terbit">Terbit</th>');
+      document.write('<th id="dhuha">Dhuha</th>');
+      document.write('<th id="zuhur">Zuhur</th>');
+      document.write('<th id="ashar">Ashar</th>');
+      document.write('<th id="magrib">Magrib</th>');
+      document.write('<th id="isya">Isya</th>');
+      document.write('</tr>');
+
+      for (let i = 0; i < hijri.length; i++) {
+        document.write('<tr>');
+        document.write(`<td>${i + 1}</td>`);
+        document.write(`<td>${hijri[i]}</td>`);
+        document.write(`<td>${greg[i]}</td>`);
+        document.write(`<td>${imsak[i]}</td>`);
+        document.write(`<td>${subuh[i]}</td>`);
+        document.write(`<td>${terbit[i]}</td>`);
+        document.write(`<td>${dhuha[i]}</td>`);
+        document.write(`<td>${dzuhur[i]}</td>`);
+        document.write(`<td>${ashar[i]}</td>`);
+        document.write(`<td>${magrib[i]}</td>`);
+        document.write(`<td>${isya[i]}</td>`);
+        document.write('</tr>');
+      }
+    }
+
+    imsSumbar();
+    imsSumsel();
+    imsBanten();
+    imsJakarta();
+    imsJabar();
+
+  </script>
+</body>
+</html>
