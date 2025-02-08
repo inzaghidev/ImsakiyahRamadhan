@@ -9,6 +9,8 @@ Merupakan kumpulan Jadwal Imsakiyah, Jadwal Puasa selama Bulan Ramadhan dari Tah
 - [Ramadhan 1445 H](https://github.com/inzaghidev/ImsakiyahRamadhan/tree/main/Ramadan%201445%20H) : Maret-April 2024
 - Ramadhan 1446 H : Maret 2025 [Tidak Tersedia dalam Coding-an]
 - Ramadhan 1447 H : Februari-Maret 2026
+- Ramadhan 1448 H : Februari-Maret 2027
+- Ramadhan 1449 H : Februari-Maret 2027
 
 ## Deskripsi
 
