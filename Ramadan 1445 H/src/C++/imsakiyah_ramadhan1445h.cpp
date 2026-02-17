@@ -172,7 +172,7 @@ int main(){
   int prov;
 
   cout<<"========================================"<<endl;
-  cout<<"PROGRAM JADWAL IMSAKIYAH RAMADHAN 1444 H"<<endl;
+  cout<<"PROGRAM JADWAL IMSAKIYAH RAMADHAN 1445 H"<<endl;
   cout<<"========================================"<<endl;
   cout<<"1. Sumatra Barat (Kota Padang)"<<endl;
   cout<<"2. Sumatra Selatan (Kota Palembang)"<<endl;

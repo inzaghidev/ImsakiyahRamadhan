@@ -171,7 +171,7 @@ int main(){
   int prov;
 
   printf("========================================\n");
-  printf("PROGRAM JADWAL IMSAKIYAH RAMADHAN 1444 H\n");
+  printf("PROGRAM JADWAL IMSAKIYAH RAMADHAN 1445 H\n");
   printf("========================================\n");
   printf("1. Sumatra Barat (Kota Padang)\n");
   printf("2. Sumatra Selatan (Kota Palembang)\n");

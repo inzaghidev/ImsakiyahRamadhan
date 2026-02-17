@@ -175,9 +175,32 @@ func imsJabar() {
 }
 
 func main() {
-	imsSumbar()
-	imsSumsel()
-	imsBanten()
-	imsJakarta()
-	imsJabar()
+	fmt.Println("========================================")
+	fmt.Println("PROGRAM JADWAL IMSAKIYAH RAMADHAN 1445 H")
+	fmt.Println("========================================")
+	fmt.Println("1. Sumatra Barat (Kota Padang)")
+	fmt.Println("2. Sumatra Selatan (Kota Palembang)")
+	fmt.Println("3. Banten (Kabupaten Serang)")
+	fmt.Println("4. DKI Jakarta (Kota Jakarta)")
+	fmt.Println("5. Jawa Barat (Kota Bandung)")
+	fmt.Println("========================================")
+	fmt.Println()
+
+	var prov int
+	fmt.Print("Masukan Nomor Provinsi : ")
+	fmt.Scan(&prov)
+
+	if prov == 1 {
+		imsSumbar()
+	} else if prov == 2 {
+		imsSumsel()
+	} else if prov == 3 {
+		imsBanten()
+	} else if prov == 4 {
+		imsJakarta()
+	} else if prov == 5 {
+		imsJabar()
+	} else {
+		fmt.Println("Invalid")
+	}
 }

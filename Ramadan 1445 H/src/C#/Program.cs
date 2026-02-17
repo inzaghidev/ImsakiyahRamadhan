@@ -187,7 +187,7 @@ class Program
         int prov;
 
         Console.WriteLine("========================================");
-        Console.WriteLine("PROGRAM JADWAL IMSAKIYAH RAMADHAN 1444 H");
+        Console.WriteLine("PROGRAM JADWAL IMSAKIYAH RAMADHAN 1445 H");
         Console.WriteLine("========================================");
         Console.WriteLine("1. Sumatra Barat (Kota Padang)");
         Console.WriteLine("2. Sumatra Selatan (Kota Palembang)");

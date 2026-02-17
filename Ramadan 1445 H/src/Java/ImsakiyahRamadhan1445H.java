@@ -171,7 +171,7 @@ public class ImsakiyahRamadhan1445H {
         int prov;
     
         System.out.println("========================================");
-        System.out.println("PROGRAM JADWAL IMSAKIYAH RAMADHAN 1444 H");
+        System.out.println("PROGRAM JADWAL IMSAKIYAH RAMADHAN 1445 H");
         System.out.println("========================================");
         System.out.println("1. Sumatra Barat (Kota Padang)");
         System.out.println("2. Sumatra Selatan (Kota Palembang)");

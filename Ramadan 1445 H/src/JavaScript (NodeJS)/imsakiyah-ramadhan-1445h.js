@@ -170,7 +170,7 @@ function main() {
     const nilai = [];
   
     console.log("========================================");
-    console.log("PROGRAM JADWAL IMSAKIYAH RAMADHAN 1444 H");
+    console.log("PROGRAM JADWAL IMSAKIYAH RAMADHAN 1445 H");
     console.log("========================================");
     console.log("1. Sumatra Barat (Kota Padang)");
     console.log("2. Sumatra Selatan (Kota Palembang)");
